@@ -13,7 +13,7 @@ $(document).ready(function(e) {
 						break;
 						
 						case 2:
-						navigator.notification.Vibrate(2000);
+						navigator.notification.vibrate(2000);
 						break;
 					}
 				},"aplicación7","Beepear,Vibrar,Cancelar");
