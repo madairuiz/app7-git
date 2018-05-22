@@ -5,8 +5,8 @@ $(document).ready(function(e) {
 			navigator.notification.alert("Deslizó a la izquierda",function(){"aplicación7","Aceptar"});
 			}); //cierre deslizar izquierda
 			$('#derecha').on("swiperight",function(){
-				navigator.notification.confirm("¿Que quieres hacer?",function(opt){
-					switch(opt)
+				navigator.notification.confirm("¿Que quieres hacer?",function(otp){
+					switch(otp)
 					{
 						case 1:
 						navigator.notification.beep(2);
@@ -20,4 +20,5 @@ $(document).ready(function(e) {
 			});// cierre deslizar derecha
 	},false); // cierre del deviceready
 }); // cierre del document principal
+
 
